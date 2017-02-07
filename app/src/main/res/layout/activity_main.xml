@@ -50,7 +50,8 @@
         android:layout_below="@+id/inPrice"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/buttonCreate" />
+        android:id="@+id/buttonCreate"
+        android:onClick="create" />
 
     <Button
         android:text="Listar todos los artículos"
